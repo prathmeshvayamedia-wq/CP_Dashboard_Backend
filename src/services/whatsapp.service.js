@@ -1,0 +1,312 @@
+// ─────────────────────────────────────────────────────────────
+//  WhatsApp Service
+//  Supports: Meta Cloud API | Interakt | Wati
+//  All providers normalised to one interface:
+//    sendMessage(to, templateName, params) → { messageId, status }
+//    sendTextMessage(to, text)             → { messageId, status }
+// ─────────────────────────────────────────────────────────────
+
+const axios  = require('axios');
+const logger = require('../config/logger');
+const supabase = require('../config/supabase');
+
+const twilio = require('twilio');
+
+
+const twilioClient =
+  process.env.TWILIO_ACCOUNT_SID &&
+  process.env.TWILIO_AUTH_TOKEN
+    ? twilio(
+        process.env.TWILIO_ACCOUNT_SID,
+        process.env.TWILIO_AUTH_TOKEN
+      )
+    : null;
+// ── Message templates ────────────────────────────────────────
+// Define all your WhatsApp template messages here.
+// Template names must match what you registered in Meta Business Manager.
+// For Interakt/Wati you define templates in their dashboard.
+
+const TEMPLATES = {
+
+  // Sent to ACTIVE CPs — reward/perk notification
+  active_perk: {
+    meta_name: 'cp_active_perk',
+    body: (cp, project) =>
+      `Hi ${cp.name}! 🌟 You're an *Active Performer* on ${project.name} this month.\n\nGreat work! You've been shortlisted for our *premium inventory access*. Our sales team will reach out shortly with exclusive unit details.\n\nKeep it up! 💪\n\n— ${project.name} Team`
+  },
+
+  // Sent to DORMANT CPs — support & re-engagement
+  dormant_support: {
+    meta_name: 'cp_dormant_support',
+    body: (cp, project) =>
+      `Hi ${cp.name}, hope you're doing well!\n\nWe noticed your activity on *${project.name}* has slowed down a bit this month. We're here to help — whether it's inventory info, client queries, or pricing support.\n\nReply to this message or call us anytime. Let's close more deals together! 🤝\n\n— ${project.name} Sales Team`
+  },
+
+  // Sent when 7 days of inactivity
+  inactivity_7d: {
+    meta_name: 'cp_inactivity_7d',
+    body: (cp, project) =>
+      `Hi ${cp.name} 👋\n\nWe haven't heard from you in a week on *${project.name}*. There are active clients in the market right now!\n\nWould you like us to share the latest availability and pricing? Just reply *YES* and we'll get you updated.\n\n— ${project.name} Team`
+  },
+
+  // Sent when 14 days of inactivity (stronger)
+  inactivity_14d: {
+    meta_name: 'cp_inactivity_14d',
+    body: (cp, project) =>
+      `Hi ${cp.name},\n\nIt's been 2 weeks since we last connected on *${project.name}*. We value our partnership and want to make sure you have everything you need.\n\n⚠️ Please note that inactive CPs may have their inventory access reviewed.\n\nLet's catch up — reply here or call your relationship manager.\n\n— ${project.name} Team`
+  },
+
+  // Sent when 21+ days — meeting notice
+  inactivity_meeting: {
+    meta_name: 'cp_inactivity_meeting',
+    body: (cp, project, meetingDate) =>
+      `Hi ${cp.name},\n\nWe've noticed extended inactivity on *${project.name}* and would like to schedule a brief check-in meeting.\n\n📅 *Meeting scheduled:* ${meetingDate}\n\nPlease confirm by replying *CONFIRM* or suggest an alternative time.\n\nWe look forward to reconnecting!\n\n— ${project.name} Sales Head`
+  },
+
+  // Sent when no conversation with sales team
+  no_conversation: {
+    meta_name: 'cp_no_conversation',
+    body: (cp, project) =>
+      `Hi ${cp.name}!\n\nYour sales team contact at *${project.name}* hasn't heard from you recently.\n\nIf you have any client queries, inventory questions, or need support — just reply here and we'll respond within 2 hours.\n\nClients are ready — let's connect! 🏡\n\n— ${project.name} Team`
+  },
+
+  // Sent when performance drops vs last period
+  performance_drop: {
+    meta_name: 'cp_performance_drop',
+    body: (cp, project, prevScore, currScore) =>
+      `Hi ${cp.name},\n\nWe noticed your performance score on *${project.name}* dropped from *${prevScore}* to *${currScore}* this period.\n\nWe'd love to understand if there's anything we can do to support you better. Our team is available for a quick call.\n\nReply *HELP* and we'll reach out today! 📞\n\n— ${project.name} Team`
+  },
+
+  // Manual message from admin (free text, sent via button)
+  manual: {
+    meta_name: null,  // uses free-text sendTextMessage for manual
+    body: (cp, project, customText) => customText
+  },
+
+  // Daily summary to admin
+  daily_summary: {
+    meta_name: 'admin_daily_summary',
+    body: (summary, project) =>
+      `📊 *${project.name} — Daily CP Summary*\n\n` +
+      `📅 ${new Date().toLocaleDateString('en-IN', { dateStyle: 'long' })}\n\n` +
+      `✅ Active: *${summary.active_count}*\n` +
+      `🟡 Dormant: *${summary.dormant_count}*\n` +
+      `🔴 Inactive: *${summary.inactive_count}*\n\n` +
+      `📨 Messages sent today: *${summary.messages_sent_today}*\n` +
+      `📅 Meetings set: *${summary.meetings_set_today}*\n` +
+      `🏠 New deals: *${summary.new_deals_today}*\n\n` +
+      (summary.alerts_fired?.length
+        ? `⚠️ Alerts fired:\n${summary.alerts_fired.map(n => `  • ${n}`).join('\n')}`
+        : `✅ No critical alerts today`) +
+      `\n\n— PropEdge Automation`
+  }
+};
+
+// ── Provider: Meta Cloud API ─────────────────────────────────
+// async function sendViaMeta(to, templateName, bodyText, components = []) {
+//   const phone = normalizePhone(to);
+//   const url = `https://graph.facebook.com/v18.0/${process.env.WHATSAPP_PHONE_NUMBER_ID}/messages`;
+
+//   // Meta requires template messages for first contact (within 24hr window use text)
+//   const payload = {
+//     messaging_product: 'whatsapp',
+//     recipient_type: 'individual',
+//     to: phone,
+//     type: 'text',
+//     text: { preview_url: false, body: bodyText }
+//   };
+
+//   const response = await axios.post(url, payload, {
+//     headers: {
+//       Authorization: `Bearer ${process.env.WHATSAPP_TOKEN}`,
+//       'Content-Type': 'application/json'
+//     },
+//     timeout: 10000
+//   });
+
+//   const msgId = response.data?.messages?.[0]?.id;
+//   logger.info('WhatsApp sent via Meta', { to: phone, msgId, template: templateName });
+//   return { messageId: msgId, status: 'sent', provider: 'meta' };
+// }
+
+// // ── Provider: Interakt ───────────────────────────────────────
+// async function sendViaInterakt(to, templateName, bodyText, params = []) {
+//   const phone = normalizePhone(to);
+//   const url = `${process.env.INTERAKT_BASE_URL}/message/`;
+
+//   // Interakt supports both template and session messages
+//   const payload = {
+//     countryCode: '+91',
+//     phoneNumber: phone.replace(/^91/, ''),
+//     callbackData: templateName,
+//     type: 'Text',
+//     data: { message: bodyText }
+//   };
+
+//   const response = await axios.post(url, payload, {
+//     headers: {
+//       Authorization: `Basic ${process.env.INTERAKT_API_KEY}`,
+//       'Content-Type': 'application/json'
+//     },
+//     timeout: 10000
+//   });
+
+//   logger.info('WhatsApp sent via Interakt', { to: phone, template: templateName });
+//   return { messageId: response.data?.id || null, status: 'sent', provider: 'interakt' };
+// }
+
+// // ── Provider: Wati ───────────────────────────────────────────
+// async function sendViaWati(to, templateName, bodyText, parameters = []) {
+//   const phone = normalizePhone(to);
+//   const url = `${process.env.WATI_BASE_URL}/api/v1/sendSessionMessage/${phone}`;
+
+//   const payload = { messageText: bodyText };
+
+//   const response = await axios.post(url, payload, {
+//     headers: {
+//       Authorization: `Bearer ${process.env.WATI_API_KEY}`,
+//       'Content-Type': 'application/json'
+//     },
+//     timeout: 10000
+//   });
+
+//   logger.info('WhatsApp sent via Wati', { to: phone, template: templateName });
+//   return { messageId: response.data?.id || null, status: 'sent', provider: 'wati' };
+// }
+
+//-- Provider: Twilio
+
+async function sendViaTwilio(to, templateName, bodyText) {
+  const phone = normalizePhone(to);
+
+  const response = await twilioClient.messages.create({
+    from: process.env.TWILIO_WHATSAPP_FROM,
+    to: `whatsapp:+${phone}`,
+    body: bodyText
+  });
+
+  logger.info('WhatsApp sent via Twilio', {
+    to: phone,
+    sid: response.sid,
+    template: templateName
+  });
+
+  return {
+    messageId: response.sid,
+    status: 'sent',
+    provider: 'twilio'
+  };
+}
+
+// ── Normalise phone to E.164 ─────────────────────────────────
+function normalizePhone(phone) {
+  const digits = String(phone).replace(/\D/g, '');
+  if (digits.startsWith('91') && digits.length === 12) return digits;
+  if (digits.length === 10) return `91${digits}`;
+  return digits;
+}
+
+// ── Main dispatcher ──────────────────────────────────────────
+async function sendWhatsApp(to, templateName, bodyText) {
+  const provider = process.env.WHATSAPP_PROVIDER || 'meta';
+  try {
+    let result;
+    // if (provider === 'meta')      result = await sendViaMeta(to, templateName, bodyText);
+    // else if (provider === 'interakt') result = await sendViaInterakt(to, templateName, bodyText);
+    // else if (provider === 'wati') result = await sendViaWati(to, templateName, bodyText);
+    // else throw new Error(`Unknown WhatsApp provider: ${provider}`);
+    // if (provider === 'meta')
+    // result = await sendViaMeta(to, templateName, bodyText);
+
+    // else if (provider === 'interakt')
+    // result = await sendViaInterakt(to, templateName, bodyText);
+
+    // else if (provider === 'wati')
+    // result = await sendViaWati(to, templateName, bodyText);
+
+    // else if (provider === 'twilio')
+    if (provider === 'twilio')
+    result = await sendViaTwilio(to, templateName, bodyText);
+
+    else
+      throw new Error(`Unknown WhatsApp provider: ${provider}`);
+        return result;
+      } catch (err) {
+        const errMsg = err.response?.data ? JSON.stringify(err.response.data) : err.message;
+        logger.error('WhatsApp send failed', { to, templateName, error: errMsg });
+        return { messageId: null, status: 'failed', error: errMsg };
+      }
+    }
+
+// ── Log message to Supabase ──────────────────────────────────
+async function logMessage({ cpId, projectId, sentBy, triggerType, templateName, body, result }) {
+  await supabase.from('messages').insert({
+    cp_id: cpId,
+    project_id: projectId,
+    sent_by: sentBy || 'system',
+    trigger_type: triggerType,
+    channel: 'whatsapp',
+    template_name: templateName,
+    message_body: body,
+    whatsapp_message_id: result.messageId,
+    status: result.status,
+    error_details: result.error || null
+  });
+}
+
+// ── Public API used by all services ─────────────────────────
+
+/**
+ * Send a WhatsApp to a CP and log it.
+ * @param {object} cp       - channel_partner row
+ * @param {object} project  - project row
+ * @param {string} triggerType - key from TEMPLATES
+ * @param {object} extraData - any extra params for the template body
+ * @param {string} sentBy   - 'system' | 'admin' | 'job'
+ */
+async function sendCPMessage(cp, project, triggerType, extraData = {}, sentBy = 'system') {
+  const tmpl = TEMPLATES[triggerType];
+  if (!tmpl) throw new Error(`Unknown trigger type: ${triggerType}`);
+
+  let body;
+  if (triggerType === 'manual')           body = extraData.text;
+  else if (triggerType === 'inactivity_meeting') body = tmpl.body(cp, project, extraData.meetingDate);
+  else if (triggerType === 'performance_drop')   body = tmpl.body(cp, project, extraData.prevScore, extraData.currScore);
+  else if (triggerType === 'daily_summary')      body = tmpl.body(extraData.summary, project);
+  else                                           body = tmpl.body(cp, project);
+
+  const result = await sendWhatsApp(cp.whatsapp, tmpl.meta_name || triggerType, body);
+
+  await logMessage({
+    cpId: cp.id,
+    projectId: project.id,
+    sentBy,
+    triggerType,
+    templateName: tmpl.meta_name,
+    body,
+    result
+  });
+
+  return { ...result, body };
+}
+
+/**
+ * Send daily summary to admin.
+ */
+async function sendAdminSummary(summary, project, adminWhatsapp) {
+  const tmpl = TEMPLATES.daily_summary;
+  const body = tmpl.body(summary, project);
+  const result = await sendWhatsApp(adminWhatsapp, tmpl.meta_name, body);
+  logger.info('Admin daily summary sent', { projectId: project.id, status: result.status });
+  return result;
+}
+
+// module.exports = { sendCPMessage, sendAdminSummary, TEMPLATES, normalizePhone };
+
+module.exports = {
+  sendCPMessage,
+  sendAdminSummary,
+  sendWhatsApp,
+  TEMPLATES,
+  normalizePhone
+};

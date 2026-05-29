@@ -1,0 +1,539 @@
+[2026-05-25 16:37:37] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-25 16:37:37] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-25 17:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-25 17:41:09] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:09] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:13] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:13] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:15] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:15] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:16] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:16] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:19] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:19] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:23] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:23] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:46] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:48] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:49] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:49] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:58] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:41:58] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:42:09] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:42:09] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:42:13] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:42:13] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:42:14] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:42:14] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:42:15] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:42:15] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:42:16] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:42:16] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:43:22] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 17:43:22] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-25 18:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-25 18:37:21] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-25 18:37:21] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-25 18:38:52] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-25 18:38:52] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-25 19:00:00] INFO: JOB: Evening summary started
+[2026-05-25 19:00:02] WARN: No active projects found
+[2026-05-25 19:00:02] INFO: JOB: Evening summary sent
+[2026-05-25 22:58:02] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-25 22:58:02] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-25 23:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-25 23:37:30] INFO: Scheduler stopped
+[2026-05-25 23:37:41] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-25 23:37:41] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-25 23:45:54] INFO: Scheduler stopped
+[2026-05-25 23:46:10] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-25 23:46:10] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 00:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-26 10:48:35] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 10:48:35] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 10:49:17] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 10:49:17] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 10:58:17] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 10:58:17] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 10:58:19] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 10:58:19] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 11:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-26 11:03:28] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 11:03:28] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 11:03:35] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 11:03:35] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 11:03:38] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 11:03:38] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 11:03:40] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 11:03:40] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 11:07:27] INFO: Scheduler stopped
+[2026-05-26 11:07:32] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 11:07:32] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 11:32:09] WARN: Auth failed {"error":"jwt malformed"}
+[2026-05-26 11:32:45] WARN: Auth failed {"error":"invalid signature"}
+[2026-05-26 11:58:18] INFO: Scheduler stopped
+[2026-05-26 11:58:24] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 11:58:24] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 12:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-26 13:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-26 13:22:01] INFO: Scheduler stopped
+[2026-05-26 13:22:10] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 13:22:10] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 13:22:33] INFO: Scheduler stopped
+[2026-05-26 13:22:44] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 13:22:44] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 13:38:26] ERROR: WhatsApp send failed {"to":"919900000103","templateName":"cp_active_perk","error":"{\"error\":{\"message\":\"Unsupported post request. Object with ID 'messages' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\",\"type\":\"GraphMethodException\",\"code\":100,\"error_subcode\":33,\"fbtrace_id\":\"AN6IfAU9XcOXCbywd5D2m8P\"}}"}
+[2026-05-26 13:38:27] INFO: Manual message sent {"cp":"Vikram Singh","admin":"prathmesh.vayamedia@gmail.com","triggerType":"active_perk"}
+[2026-05-26 13:55:32] ERROR: WhatsApp send failed {"to":"919900000201","templateName":"cp_inactivity_7d","error":"{\"error\":{\"message\":\"Unsupported post request. Object with ID 'messages' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\",\"type\":\"GraphMethodException\",\"code\":100,\"error_subcode\":33,\"fbtrace_id\":\"AyUzWF95UvHBWyBBTQJ2-np\"}}"}
+[2026-05-26 13:55:32] INFO: Manual message sent {"cp":"Harish Malhotra","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_7d"}
+[2026-05-26 14:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-26 15:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-26 16:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-26 16:05:15] INFO: Scheduler stopped
+[2026-05-26 16:05:22] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 16:05:22] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 16:24:38] INFO: CSV import complete {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","total":15,"success":0,"failed":15}
+[2026-05-26 16:25:38] INFO: CSV import complete {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","total":15,"success":0,"failed":15}
+[2026-05-26 16:31:39] INFO: CSV import complete {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","total":15,"success":0,"failed":15}
+[2026-05-26 16:37:57] INFO: Scheduler stopped
+[2026-05-26 16:38:08] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 16:38:08] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 16:38:45] INFO: CSV import complete {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","total":15,"success":15,"failed":0}
+[2026-05-26 16:39:57] INFO: CSV import complete {"projectId":"67db528f-e916-47b7-b9e3-9dcb17764705","total":15,"success":15,"failed":0}
+[2026-05-26 16:40:33] ERROR: WhatsApp send failed {"to":"919876543210","templateName":"cp_inactivity_meeting","error":"{\"error\":{\"message\":\"Unsupported post request. Object with ID 'messages' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api\",\"type\":\"GraphMethodException\",\"code\":100,\"error_subcode\":33,\"fbtrace_id\":\"Aanq7CVHRsnKSPXxvIaBYZ0\"}}"}
+[2026-05-26 17:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-26 18:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-26 18:12:36] INFO: Scheduler stopped
+[2026-05-26 18:32:58] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 18:32:58] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 18:34:40] ERROR: WhatsApp send failed {"to":"919763821790","templateName":"manual","error":"{\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"APpK9exj_8i0uJU-wi-KYJg\"}}"}
+[2026-05-26 18:34:41] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"manual"}
+[2026-05-26 18:35:18] ERROR: WhatsApp send failed {"to":"919763821790","templateName":"manual","error":"{\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Ab_6qwCYA-HrY9HGkgqJ4ow\"}}"}
+[2026-05-26 18:35:18] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"manual"}
+[2026-05-26 18:41:22] INFO: Scheduler stopped
+[2026-05-26 18:41:28] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 18:41:28] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 18:41:29] INFO: Scheduler stopped
+[2026-05-26 18:41:35] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 18:41:35] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 18:42:01] ERROR: WhatsApp send failed {"to":"919763821790","templateName":"manual","error":"sendViaMeta is not defined"}
+[2026-05-26 18:42:02] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"manual"}
+[2026-05-26 18:43:48] ERROR: WhatsApp send failed {"to":"919763821790","templateName":"manual","error":"sendViaMeta is not defined"}
+[2026-05-26 18:43:48] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"manual"}
+[2026-05-26 18:45:18] INFO: Scheduler stopped
+[2026-05-26 18:45:23] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 18:45:23] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 18:45:34] ERROR: WhatsApp send failed {"to":"919763821790","templateName":"manual","error":"Unknown WhatsApp provider: meta"}
+[2026-05-26 18:45:34] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"manual"}
+[2026-05-26 18:59:00] INFO: Scheduler stopped
+[2026-05-26 18:59:07] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 18:59:07] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 18:59:38] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM7de4f524b488e8e090d7657516a45487","template":"manual"}
+[2026-05-26 18:59:38] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"manual"}
+[2026-05-26 19:00:00] INFO: JOB: Evening summary started
+[2026-05-26 19:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-26 19:00:00] INFO: Automation run started {"projectId":"b2000000-0000-0000-0000-000000000001","periodType":"monthly"}
+[2026-05-26 19:00:01] INFO: Classification complete {"projectId":"b2000000-0000-0000-0000-000000000001","total":0}
+[2026-05-26 19:00:02] ERROR: WhatsApp send failed {"to":"91XXXXXXXXXX","templateName":"admin_daily_summary","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:02] INFO: Admin daily summary sent {"projectId":"b2000000-0000-0000-0000-000000000001","status":"failed"}
+[2026-05-26 19:00:03] INFO: Automation run complete {"projectId":"b2000000-0000-0000-0000-000000000001","cpsProcessed":0,"triggersTotal":0}
+[2026-05-26 19:00:03] INFO: Automation run started {"projectId":"b2000000-0000-0000-0000-000000000002","periodType":"monthly"}
+[2026-05-26 19:00:04] INFO: Classification complete {"projectId":"b2000000-0000-0000-0000-000000000002","total":0}
+[2026-05-26 19:00:06] ERROR: WhatsApp send failed {"to":"91XXXXXXXXXX","templateName":"admin_daily_summary","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:06] INFO: Admin daily summary sent {"projectId":"b2000000-0000-0000-0000-000000000002","status":"failed"}
+[2026-05-26 19:00:06] INFO: Automation run complete {"projectId":"b2000000-0000-0000-0000-000000000002","cpsProcessed":0,"triggersTotal":0}
+[2026-05-26 19:00:06] INFO: Automation run started {"projectId":"b2000000-0000-0000-0000-000000000003","periodType":"monthly"}
+[2026-05-26 19:00:07] INFO: Classification complete {"projectId":"b2000000-0000-0000-0000-000000000003","total":0}
+[2026-05-26 19:00:08] ERROR: WhatsApp send failed {"to":"91XXXXXXXXXX","templateName":"admin_daily_summary","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:08] INFO: Admin daily summary sent {"projectId":"b2000000-0000-0000-0000-000000000003","status":"failed"}
+[2026-05-26 19:00:09] INFO: Automation run complete {"projectId":"b2000000-0000-0000-0000-000000000003","cpsProcessed":0,"triggersTotal":0}
+[2026-05-26 19:00:09] INFO: Automation run started {"projectId":"67db528f-e916-47b7-b9e3-9dcb17764705","periodType":"monthly"}
+[2026-05-26 19:00:15] INFO: Classification complete {"projectId":"67db528f-e916-47b7-b9e3-9dcb17764705","total":15}
+[2026-05-26 19:00:16] INFO: Meeting created {"cpId":"7438eeff-fc56-464f-a0fc-70f11da6a923","scheduledAt":"2026-05-28T13:30:16.084Z"}
+[2026-05-26 19:00:16] ERROR: WhatsApp send failed {"to":"919876543215","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:16] INFO: Trigger fired {"cp":"Kavita Bhat","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:17] INFO: Meeting created {"cpId":"7acae1f5-77f1-469c-b822-c76283870164","scheduledAt":"2026-05-28T13:30:17.258Z"}
+[2026-05-26 19:00:17] ERROR: WhatsApp send failed {"to":"919876543216","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:17] INFO: Trigger fired {"cp":"Manoj Verma","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:18] INFO: Meeting created {"cpId":"454ef066-16eb-44e8-9ccb-fb3830435bae","scheduledAt":"2026-05-28T13:30:18.173Z"}
+[2026-05-26 19:00:18] ERROR: WhatsApp send failed {"to":"919876543220","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:18] INFO: Trigger fired {"cp":"Rohan Kulkarni","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:19] INFO: Meeting created {"cpId":"57423950-ce34-4b1b-8317-41544ad55705","scheduledAt":"2026-05-28T13:30:19.286Z"}
+[2026-05-26 19:00:19] ERROR: WhatsApp send failed {"to":"919876543221","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:19] INFO: Trigger fired {"cp":"Neha Sharma","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:21] INFO: Meeting created {"cpId":"acd58b5e-2e75-4a0f-aa13-3ebdd2567c6c","scheduledAt":"2026-05-28T13:30:20.859Z"}
+[2026-05-26 19:00:21] ERROR: WhatsApp send failed {"to":"919876543222","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:21] INFO: Trigger fired {"cp":"Sandeep Rao","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:22] INFO: Meeting created {"cpId":"e03d06ce-3cc5-4412-a51b-d265c52e4c97","scheduledAt":"2026-05-28T13:30:21.882Z"}
+[2026-05-26 19:00:22] ERROR: WhatsApp send failed {"to":"919876543224","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:22] INFO: Trigger fired {"cp":"Amit Chavan","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:24] INFO: Meeting created {"cpId":"85896ca6-861e-40d6-acd5-36c043387f9f","scheduledAt":"2026-05-28T13:30:23.699Z"}
+[2026-05-26 19:00:24] ERROR: WhatsApp send failed {"to":"919876543210","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:25] INFO: Trigger fired {"cp":"Rahul Mehta","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:26] INFO: Meeting created {"cpId":"7879f38c-0bbd-4fe8-89af-0e585426f7f7","scheduledAt":"2026-05-28T13:30:25.612Z"}
+[2026-05-26 19:00:26] ERROR: WhatsApp send failed {"to":"919876543211","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:26] INFO: Trigger fired {"cp":"Sneha Patil","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:28] INFO: Meeting created {"cpId":"397d3f4a-24c6-4f9f-874b-d57b4ff8026a","scheduledAt":"2026-05-28T13:30:27.763Z"}
+[2026-05-26 19:00:28] ERROR: WhatsApp send failed {"to":"919876543212","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:28] INFO: Trigger fired {"cp":"Vikram Singh","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:29] INFO: Meeting created {"cpId":"92135339-1742-453d-825e-436e5dca5f18","scheduledAt":"2026-05-28T13:30:28.885Z"}
+[2026-05-26 19:00:29] ERROR: WhatsApp send failed {"to":"919876543214","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:29] INFO: Trigger fired {"cp":"Deepak Joshi","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:30] INFO: Meeting created {"cpId":"7fda1558-cdf8-4698-aff8-a2944643af8f","scheduledAt":"2026-05-28T13:30:30.005Z"}
+[2026-05-26 19:00:30] ERROR: WhatsApp send failed {"to":"919876543218","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:31] INFO: Trigger fired {"cp":"Arjun Kapoor","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:31] INFO: Meeting created {"cpId":"776759f9-d89c-4078-8f77-24cd0bf1279b","scheduledAt":"2026-05-28T13:30:31.457Z"}
+[2026-05-26 19:00:31] ERROR: WhatsApp send failed {"to":"919876543219","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:32] INFO: Trigger fired {"cp":"Priya Nair","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:32] INFO: Meeting created {"cpId":"551120ef-1c20-45b6-9075-47bcf60f150a","scheduledAt":"2026-05-28T13:30:32.623Z"}
+[2026-05-26 19:00:32] ERROR: WhatsApp send failed {"to":"919876543213","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:33] INFO: Trigger fired {"cp":"Anita Desai","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:34] INFO: Meeting created {"cpId":"c0ba7c2e-b87e-4333-9c92-eefe4535b58b","scheduledAt":"2026-05-28T13:30:33.714Z"}
+[2026-05-26 19:00:34] ERROR: WhatsApp send failed {"to":"919876543217","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:34] INFO: Trigger fired {"cp":"Nalini Gokhale","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:36] INFO: Meeting created {"cpId":"8c69cf57-bc7f-47a5-8f0a-adaa639b704a","scheduledAt":"2026-05-28T13:30:35.508Z"}
+[2026-05-26 19:00:36] ERROR: WhatsApp send failed {"to":"919876543223","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:36] INFO: Trigger fired {"cp":"Pooja Jain","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:37] ERROR: WhatsApp send failed {"to":"91XXXXXXXXXX","templateName":"admin_daily_summary","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:37] INFO: Admin daily summary sent {"projectId":"67db528f-e916-47b7-b9e3-9dcb17764705","status":"failed"}
+[2026-05-26 19:00:38] INFO: Automation run complete {"projectId":"67db528f-e916-47b7-b9e3-9dcb17764705","cpsProcessed":15,"triggersTotal":15}
+[2026-05-26 19:00:38] INFO: Automation run started {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","periodType":"monthly"}
+[2026-05-26 19:00:53] INFO: Classification complete {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","total":15}
+[2026-05-26 19:00:53] INFO: Meeting created {"cpId":"27adaca5-d4f0-4ea1-85eb-3f5ba8fc47fd","scheduledAt":"2026-05-28T13:30:53.377Z"}
+[2026-05-26 19:00:53] ERROR: WhatsApp send failed {"to":"919876543215","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:55] INFO: Trigger fired {"cp":"Kavita Bhat","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:00:56] INFO: Meeting created {"cpId":"982e0387-1979-4bda-9825-e3c1a306a816","scheduledAt":"2026-05-28T13:30:55.666Z"}
+[2026-05-26 19:00:56] ERROR: WhatsApp send failed {"to":"919876543216","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:00:59] INFO: Trigger fired {"cp":"Manoj Verma","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:02] INFO: Meeting created {"cpId":"98c9c23f-e082-4e84-8400-773064d5658e","scheduledAt":"2026-05-28T13:31:00.900Z"}
+[2026-05-26 19:01:02] ERROR: WhatsApp send failed {"to":"919876543220","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:03] INFO: Trigger fired {"cp":"Rohan Kulkarni","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:04] INFO: Meeting created {"cpId":"db32f25e-6928-499a-8e60-892449a4053b","scheduledAt":"2026-05-28T13:31:03.449Z"}
+[2026-05-26 19:01:04] ERROR: WhatsApp send failed {"to":"919876543221","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:05] INFO: Trigger fired {"cp":"Neha Sharma","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:06] INFO: Meeting created {"cpId":"6deef61d-149a-4b0f-8ec2-bf3fdcebbc17","scheduledAt":"2026-05-28T13:31:06.126Z"}
+[2026-05-26 19:01:06] ERROR: WhatsApp send failed {"to":"919876543222","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:06] INFO: Trigger fired {"cp":"Sandeep Rao","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:07] INFO: Meeting created {"cpId":"78f2958b-f8ef-4c00-8c6d-b31cc08dcd4f","scheduledAt":"2026-05-28T13:31:07.179Z"}
+[2026-05-26 19:01:07] ERROR: WhatsApp send failed {"to":"919876543224","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:07] INFO: Trigger fired {"cp":"Amit Chavan","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:08] INFO: Meeting created {"cpId":"5c32f6b1-b957-4d71-8105-b01c9c565106","scheduledAt":"2026-05-28T13:31:08.102Z"}
+[2026-05-26 19:01:08] ERROR: WhatsApp send failed {"to":"919876543210","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:08] INFO: Trigger fired {"cp":"Rahul Mehta","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:09] INFO: Meeting created {"cpId":"3a266899-1145-4ba6-bad8-23fa9fdd96b0","scheduledAt":"2026-05-28T13:31:09.029Z"}
+[2026-05-26 19:01:09] ERROR: WhatsApp send failed {"to":"919876543211","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:09] INFO: Trigger fired {"cp":"Sneha Patil","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:10] INFO: Meeting created {"cpId":"b4fe5229-20cc-466f-8c9e-cb838913471c","scheduledAt":"2026-05-28T13:31:10.134Z"}
+[2026-05-26 19:01:10] ERROR: WhatsApp send failed {"to":"919876543212","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:10] INFO: Trigger fired {"cp":"Vikram Singh","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:11] INFO: Meeting created {"cpId":"d3c4c752-f802-4a20-81c1-5fa1137608e6","scheduledAt":"2026-05-28T13:31:11.415Z"}
+[2026-05-26 19:01:11] ERROR: WhatsApp send failed {"to":"919876543214","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:12] INFO: Trigger fired {"cp":"Deepak Joshi","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:12] INFO: Meeting created {"cpId":"0260c445-ca70-48b3-aeff-f12d3b736785","scheduledAt":"2026-05-28T13:31:12.444Z"}
+[2026-05-26 19:01:12] ERROR: WhatsApp send failed {"to":"919763821790","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:13] INFO: Trigger fired {"cp":"Prathmesh Lohar","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:14] INFO: Meeting created {"cpId":"a92f789c-a066-49c5-8fd9-a653201c8479","scheduledAt":"2026-05-28T13:31:14.296Z"}
+[2026-05-26 19:01:14] ERROR: WhatsApp send failed {"to":"919876543217","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:14] INFO: Trigger fired {"cp":"Nalini Gokhale","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:15] INFO: Meeting created {"cpId":"e47f7abd-5f62-4222-b0ee-619944b58a76","scheduledAt":"2026-05-28T13:31:15.258Z"}
+[2026-05-26 19:01:15] ERROR: WhatsApp send failed {"to":"919876543223","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:15] INFO: Trigger fired {"cp":"Pooja Jain","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:16] INFO: Meeting created {"cpId":"86d69cd6-7b48-4c7f-9d82-0e1e65ae7ae6","scheduledAt":"2026-05-28T13:31:16.169Z"}
+[2026-05-26 19:01:16] ERROR: WhatsApp send failed {"to":"919876543218","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:16] INFO: Trigger fired {"cp":"Arjun Kapoor","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:17] INFO: Meeting created {"cpId":"ad4ae1f9-7694-44ae-9ceb-064bdd579369","scheduledAt":"2026-05-28T13:31:17.087Z"}
+[2026-05-26 19:01:17] ERROR: WhatsApp send failed {"to":"919876543219","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:17] INFO: Trigger fired {"cp":"Priya Nair","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-26 19:01:18] ERROR: WhatsApp send failed {"to":"91XXXXXXXXXX","templateName":"admin_daily_summary","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-26 19:01:18] INFO: Admin daily summary sent {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","status":"failed"}
+[2026-05-26 19:01:19] INFO: Automation run complete {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","cpsProcessed":15,"triggersTotal":15}
+[2026-05-26 19:01:19] INFO: JOB: Evening summary sent
+[2026-05-26 19:08:42] INFO: Scheduler stopped
+[2026-05-26 19:08:49] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 19:08:49] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 19:09:18] INFO: WhatsApp sent via Twilio {"to":"919876543215","sid":"SM8e7a44ac2dc8a237302cc89713f903d9","template":"manual"}
+[2026-05-26 19:09:18] INFO: Manual message sent {"cp":"Aditya Gawande","admin":"prathmesh.vayamedia@gmail.com","triggerType":"manual"}
+[2026-05-26 19:11:54] INFO: Scheduler stopped
+[2026-05-26 19:11:59] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-26 19:11:59] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-26 19:12:21] INFO: WhatsApp sent via Twilio {"to":"919356458933","sid":"SMca128b30923e1bd55e81348c3d7e7229","template":"manual"}
+[2026-05-26 19:12:21] INFO: Manual message sent {"cp":"Aditya Gawande","admin":"prathmesh.vayamedia@gmail.com","triggerType":"manual"}
+[2026-05-26 19:49:23] INFO: WhatsApp sent via Twilio {"to":"919356458933","sid":"SM0972ba78952669a0316683f0496764a2","template":"manual"}
+[2026-05-26 19:49:23] INFO: Manual message sent {"cp":"Aditya Gawande","admin":"prathmesh.vayamedia@gmail.com","triggerType":"manual"}
+[2026-05-26 21:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-26 21:47:32] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM87d06f704e3d6b486943a1adbd78a81b","template":"manual"}
+[2026-05-26 21:47:33] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"manual"}
+[2026-05-26 21:48:22] INFO: Scheduler stopped
+[2026-05-27 10:32:29] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-27 10:32:29] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-27 10:37:21] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM2efc0a2d9650a0a3acf128c8a89a4d98","template":"cp_inactivity_14d"}
+[2026-05-27 10:37:22] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_14d"}
+[2026-05-27 10:38:05] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM065874a6010e146097bd33cc44e92a04","template":"cp_active_perk"}
+[2026-05-27 10:38:06] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"active_perk"}
+[2026-05-27 10:39:08] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM12293e89b9c921c994b5031a13ace249","template":"cp_performance_drop"}
+[2026-05-27 10:39:08] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"performance_drop"}
+[2026-05-27 11:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-27 12:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-27 13:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-27 13:56:03] INFO: WhatsApp sent via Twilio {"to":"919356458933","sid":"SM647a1c0d8e20c61d3b6b34d78d2c97a7","template":"manual"}
+[2026-05-27 13:56:03] INFO: Manual message sent {"cp":"Aditya Gawande","admin":"prathmesh.vayamedia@gmail.com","triggerType":"manual"}
+[2026-05-27 14:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-27 15:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-27 16:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-27 17:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-27 18:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-27 20:28:43] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM7495bd502cb9467ce8809a31292307c5","template":"cp_inactivity_7d"}
+[2026-05-27 20:28:44] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_7d"}
+[2026-05-27 20:38:32] INFO: Scheduler stopped
+[2026-05-28 10:08:33] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-28 10:08:33] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-28 10:15:47] INFO: WhatsApp sent via Twilio {"to":"919356458933","sid":"SM8094c177aee73a097ada8a2f898b002f","template":"cp_inactivity_14d"}
+[2026-05-28 10:15:47] INFO: Manual message sent {"cp":"Aditya Gawande","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_14d"}
+[2026-05-28 10:17:00] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SMfbc9bde5265c0627ac85944e1fdd513b","template":"cp_no_conversation"}
+[2026-05-28 10:17:01] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"no_conversation"}
+[2026-05-28 10:48:26] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SMfdc4550f1c406d079cd469c293756557","template":"cp_inactivity_meeting"}
+[2026-05-28 10:48:27] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_meeting"}
+[2026-05-28 10:49:20] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SMf8a2f4400c2e88572bbf8bede84a25fb","template":"cp_inactivity_14d"}
+[2026-05-28 10:49:20] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM9ca5bf69ce2054da8476636c98f38455","template":"cp_inactivity_14d"}
+[2026-05-28 10:49:21] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_14d"}
+[2026-05-28 10:49:21] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SMf41f35cc2fbc71c450ae9e07de2883a3","template":"cp_inactivity_14d"}
+[2026-05-28 10:49:21] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_14d"}
+[2026-05-28 10:49:21] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_14d"}
+[2026-05-28 10:49:21] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SMda40d9a012f6cae77f3d9f1afac7d430","template":"cp_inactivity_14d"}
+[2026-05-28 10:49:22] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_14d"}
+[2026-05-28 11:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-28 11:05:47] INFO: Scheduler stopped
+[2026-05-28 11:05:59] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-28 11:05:59] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-28 11:07:20] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM6f11717b0de15cbc22e90f8fcdcab5ff","template":"cp_inactivity_14d"}
+[2026-05-28 11:07:21] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_14d"}
+[2026-05-28 11:09:45] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM2a80018c51d0d23252f9a5222957afdd","template":"cp_inactivity_14d"}
+[2026-05-28 11:09:46] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_14d"}
+[2026-05-28 11:10:15] INFO: WhatsApp sent via Twilio {"to":"919356458933","sid":"SMf629f7232512e1f4f3dca363b91946c9","template":"cp_active_perk"}
+[2026-05-28 11:10:16] INFO: Manual message sent {"cp":"Aditya Gawande","admin":"prathmesh.vayamedia@gmail.com","triggerType":"active_perk"}
+[2026-05-28 11:15:52] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM20ebec92344e97d43f80985f976b633f","template":"cp_inactivity_14d"}
+[2026-05-28 11:15:53] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_14d"}
+[2026-05-28 11:42:56] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM53b6462592df443c75ca49dfa2b8bac4","template":"cp_active_perk"}
+[2026-05-28 11:42:57] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"active_perk"}
+[2026-05-28 11:46:26] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM5456c66e572c9a5d21b85f0b6e8e71d1","template":"cp_inactivity_meeting"}
+[2026-05-28 11:47:23] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SMb1d132535420a13118a3b04768d5b984","template":"cp_inactivity_14d"}
+[2026-05-28 11:47:23] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_14d"}
+[2026-05-28 11:51:33] INFO: Scheduler stopped
+[2026-05-28 11:57:01] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-28 11:57:01] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-28 12:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-28 12:26:19] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM83f915312430096bf890e4e8eb77a63f","template":"cp_inactivity_14d"}
+[2026-05-28 12:26:19] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_14d"}
+[2026-05-28 12:36:16] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-28 12:36:16] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-28 12:49:14] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM25346281ec7fea1e662bb1fa37486af4","template":"cp_performance_drop"}
+[2026-05-28 12:49:15] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"performance_drop"}
+[2026-05-28 12:56:06] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM28cef499a52127b2466d56dc27486fd6","template":"cp_inactivity_14d"}
+[2026-05-28 12:56:06] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"inactivity_14d"}
+[2026-05-28 13:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-28 13:07:13] INFO: Automation run started {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","periodType":"monthly"}
+[2026-05-28 13:07:22] INFO: Classification complete {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","total":15}
+[2026-05-28 13:07:25] INFO: Meeting created {"cpId":"982e0387-1979-4bda-9825-e3c1a306a816","scheduledAt":"2026-05-30T07:37:23.237Z"}
+[2026-05-28 13:07:25] ERROR: WhatsApp send failed {"to":"919876543216","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:25] INFO: Trigger fired {"cp":"Manoj Verma","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:26] INFO: Meeting created {"cpId":"98c9c23f-e082-4e84-8400-773064d5658e","scheduledAt":"2026-05-30T07:37:25.983Z"}
+[2026-05-28 13:07:26] ERROR: WhatsApp send failed {"to":"919876543220","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:26] INFO: Trigger fired {"cp":"Rohan Kulkarni","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:27] INFO: Meeting created {"cpId":"db32f25e-6928-499a-8e60-892449a4053b","scheduledAt":"2026-05-30T07:37:27.191Z"}
+[2026-05-28 13:07:27] ERROR: WhatsApp send failed {"to":"919876543221","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:27] INFO: Trigger fired {"cp":"Neha Sharma","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:28] INFO: Meeting created {"cpId":"6deef61d-149a-4b0f-8ec2-bf3fdcebbc17","scheduledAt":"2026-05-30T07:37:28.122Z"}
+[2026-05-28 13:07:28] ERROR: WhatsApp send failed {"to":"919876543222","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:28] INFO: Trigger fired {"cp":"Sandeep Rao","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:29] INFO: Meeting created {"cpId":"78f2958b-f8ef-4c00-8c6d-b31cc08dcd4f","scheduledAt":"2026-05-30T07:37:29.045Z"}
+[2026-05-28 13:07:29] ERROR: WhatsApp send failed {"to":"919876543224","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:29] INFO: Trigger fired {"cp":"Amit Chavan","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:30] INFO: Meeting created {"cpId":"5c32f6b1-b957-4d71-8105-b01c9c565106","scheduledAt":"2026-05-30T07:37:29.990Z"}
+[2026-05-28 13:07:30] ERROR: WhatsApp send failed {"to":"919876543210","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:30] INFO: Trigger fired {"cp":"Rahul Mehta","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:31] INFO: Meeting created {"cpId":"3a266899-1145-4ba6-bad8-23fa9fdd96b0","scheduledAt":"2026-05-30T07:37:31.118Z"}
+[2026-05-28 13:07:31] ERROR: WhatsApp send failed {"to":"919876543211","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:32] INFO: Trigger fired {"cp":"Sneha Patil","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:34] INFO: Meeting created {"cpId":"b4fe5229-20cc-466f-8c9e-cb838913471c","scheduledAt":"2026-05-30T07:37:33.682Z"}
+[2026-05-28 13:07:34] ERROR: WhatsApp send failed {"to":"919876543212","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:34] INFO: Trigger fired {"cp":"Vikram Singh","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:35] INFO: Meeting created {"cpId":"d3c4c752-f802-4a20-81c1-5fa1137608e6","scheduledAt":"2026-05-30T07:37:34.695Z"}
+[2026-05-28 13:07:35] ERROR: WhatsApp send failed {"to":"919876543214","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:35] INFO: Trigger fired {"cp":"Deepak Joshi","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:36] INFO: Meeting created {"cpId":"a92f789c-a066-49c5-8fd9-a653201c8479","scheduledAt":"2026-05-30T07:37:35.962Z"}
+[2026-05-28 13:07:36] ERROR: WhatsApp send failed {"to":"919876543217","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:36] INFO: Trigger fired {"cp":"Nalini Gokhale","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:37] INFO: Meeting created {"cpId":"e47f7abd-5f62-4222-b0ee-619944b58a76","scheduledAt":"2026-05-30T07:37:36.974Z"}
+[2026-05-28 13:07:37] ERROR: WhatsApp send failed {"to":"919876543223","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:37] INFO: Trigger fired {"cp":"Pooja Jain","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:38] INFO: Meeting created {"cpId":"27adaca5-d4f0-4ea1-85eb-3f5ba8fc47fd","scheduledAt":"2026-05-30T07:37:37.903Z"}
+[2026-05-28 13:07:38] ERROR: WhatsApp send failed {"to":"919356458933","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:38] INFO: Trigger fired {"cp":"Aditya Gawande","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:38] DEBUG: Skipping already-sent trigger {"cp":"Prathmesh Lohar","trigger":"inactivity_meeting"}
+[2026-05-28 13:07:39] INFO: Meeting created {"cpId":"ad4ae1f9-7694-44ae-9ceb-064bdd579369","scheduledAt":"2026-05-30T07:37:39.211Z"}
+[2026-05-28 13:07:39] ERROR: WhatsApp send failed {"to":"919876543219","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:39] INFO: Trigger fired {"cp":"Priya Nair","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:40] INFO: Meeting created {"cpId":"86d69cd6-7b48-4c7f-9d82-0e1e65ae7ae6","scheduledAt":"2026-05-30T07:37:40.149Z"}
+[2026-05-28 13:07:40] ERROR: WhatsApp send failed {"to":"919876543218","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:40] INFO: Trigger fired {"cp":"Arjun Kapoor","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-28 13:07:42] ERROR: WhatsApp send failed {"to":"91XXXXXXXXXX","templateName":"admin_daily_summary","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 13:07:42] INFO: Admin daily summary sent {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","status":"failed"}
+[2026-05-28 13:07:42] INFO: Automation run complete {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","cpsProcessed":15,"triggersTotal":14}
+[2026-05-28 14:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-28 14:53:38] INFO: Automation run started {"projectId":"b2000000-0000-0000-0000-000000000001","periodType":"monthly"}
+[2026-05-28 14:53:40] INFO: Classification complete {"projectId":"b2000000-0000-0000-0000-000000000001","total":0}
+[2026-05-28 14:53:42] ERROR: WhatsApp send failed {"to":"91XXXXXXXXXX","templateName":"admin_daily_summary","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-28 14:53:42] INFO: Admin daily summary sent {"projectId":"b2000000-0000-0000-0000-000000000001","status":"failed"}
+[2026-05-28 14:53:43] INFO: Automation run complete {"projectId":"b2000000-0000-0000-0000-000000000001","cpsProcessed":0,"triggersTotal":0}
+[2026-05-28 15:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-28 16:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-28 17:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-28 18:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-28 19:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-28 22:56:19] INFO: Scheduler stopped
+[2026-05-29 10:28:00] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-29 10:28:00] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-29 10:37:50] INFO: Scheduler stopped
+[2026-05-29 10:38:29] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-29 10:38:29] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-29 10:50:15] INFO: Scheduler stopped
+[2026-05-29 10:50:23] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-29 10:50:23] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-29 11:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-29 12:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-29 13:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-29 14:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-29 15:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-29 15:07:57] INFO: Scheduler stopped
+[2026-05-29 15:08:31] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-29 15:08:31] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-29 16:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-29 16:30:40] INFO: Scheduler stopped
+[2026-05-29 16:54:48] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-29 16:54:48] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-29 17:00:01] INFO: JOB: Hourly inactivity check
+[2026-05-29 18:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-29 19:00:00] INFO: JOB: Evening summary started
+[2026-05-29 19:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-29 19:00:02] INFO: Automation run started {"projectId":"67db528f-e916-47b7-b9e3-9dcb17764705","periodType":"monthly"}
+[2026-05-29 19:00:10] INFO: Classification complete {"projectId":"67db528f-e916-47b7-b9e3-9dcb17764705","total":15}
+[2026-05-29 19:00:11] INFO: Meeting created {"cpId":"7acae1f5-77f1-469c-b822-c76283870164","scheduledAt":"2026-05-31T13:30:11.337Z"}
+[2026-05-29 19:00:11] ERROR: WhatsApp send failed {"to":"919876543216","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:12] INFO: Trigger fired {"cp":"Manoj Verma","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:12] INFO: Meeting created {"cpId":"454ef066-16eb-44e8-9ccb-fb3830435bae","scheduledAt":"2026-05-31T13:30:12.342Z"}
+[2026-05-29 19:00:12] ERROR: WhatsApp send failed {"to":"919876543220","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:12] INFO: Trigger fired {"cp":"Rohan Kulkarni","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:13] INFO: Meeting created {"cpId":"57423950-ce34-4b1b-8317-41544ad55705","scheduledAt":"2026-05-31T13:30:13.248Z"}
+[2026-05-29 19:00:13] ERROR: WhatsApp send failed {"to":"919876543221","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:13] INFO: Trigger fired {"cp":"Neha Sharma","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:14] INFO: Meeting created {"cpId":"acd58b5e-2e75-4a0f-aa13-3ebdd2567c6c","scheduledAt":"2026-05-31T13:30:14.201Z"}
+[2026-05-29 19:00:14] ERROR: WhatsApp send failed {"to":"919876543222","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:14] INFO: Trigger fired {"cp":"Sandeep Rao","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:15] INFO: Meeting created {"cpId":"e03d06ce-3cc5-4412-a51b-d265c52e4c97","scheduledAt":"2026-05-31T13:30:15.154Z"}
+[2026-05-29 19:00:15] ERROR: WhatsApp send failed {"to":"919876543224","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:15] INFO: Trigger fired {"cp":"Amit Chavan","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:16] INFO: Meeting created {"cpId":"85896ca6-861e-40d6-acd5-36c043387f9f","scheduledAt":"2026-05-31T13:30:16.140Z"}
+[2026-05-29 19:00:16] ERROR: WhatsApp send failed {"to":"919876543210","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:16] INFO: Trigger fired {"cp":"Rahul Mehta","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:17] INFO: Meeting created {"cpId":"7879f38c-0bbd-4fe8-89af-0e585426f7f7","scheduledAt":"2026-05-31T13:30:17.136Z"}
+[2026-05-29 19:00:17] ERROR: WhatsApp send failed {"to":"919876543211","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:17] INFO: Trigger fired {"cp":"Sneha Patil","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:18] INFO: Meeting created {"cpId":"397d3f4a-24c6-4f9f-874b-d57b4ff8026a","scheduledAt":"2026-05-31T13:30:18.067Z"}
+[2026-05-29 19:00:18] ERROR: WhatsApp send failed {"to":"919876543212","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:18] INFO: Trigger fired {"cp":"Vikram Singh","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:19] INFO: Meeting created {"cpId":"776759f9-d89c-4078-8f77-24cd0bf1279b","scheduledAt":"2026-05-31T13:30:19.045Z"}
+[2026-05-29 19:00:19] ERROR: WhatsApp send failed {"to":"919876543219","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:19] INFO: Trigger fired {"cp":"Priya Nair","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:20] INFO: Meeting created {"cpId":"c0ba7c2e-b87e-4333-9c92-eefe4535b58b","scheduledAt":"2026-05-31T13:30:19.965Z"}
+[2026-05-29 19:00:20] ERROR: WhatsApp send failed {"to":"919876543217","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:20] INFO: Trigger fired {"cp":"Nalini Gokhale","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:21] INFO: Meeting created {"cpId":"8c69cf57-bc7f-47a5-8f0a-adaa639b704a","scheduledAt":"2026-05-31T13:30:21.034Z"}
+[2026-05-29 19:00:21] ERROR: WhatsApp send failed {"to":"919876543223","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:21] INFO: Trigger fired {"cp":"Pooja Jain","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:22] INFO: Meeting created {"cpId":"7438eeff-fc56-464f-a0fc-70f11da6a923","scheduledAt":"2026-05-31T13:30:21.970Z"}
+[2026-05-29 19:00:22] ERROR: WhatsApp send failed {"to":"919876543215","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:22] INFO: Trigger fired {"cp":"Kavita Bhat","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:23] INFO: Meeting created {"cpId":"551120ef-1c20-45b6-9075-47bcf60f150a","scheduledAt":"2026-05-31T13:30:22.967Z"}
+[2026-05-29 19:00:23] ERROR: WhatsApp send failed {"to":"919876543213","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:23] INFO: Trigger fired {"cp":"Anita Desai","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:24] INFO: Meeting created {"cpId":"92135339-1742-453d-825e-436e5dca5f18","scheduledAt":"2026-05-31T13:30:24.025Z"}
+[2026-05-29 19:00:24] ERROR: WhatsApp send failed {"to":"919876543214","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:24] INFO: Trigger fired {"cp":"Deepak Joshi","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:25] INFO: Meeting created {"cpId":"7fda1558-cdf8-4698-aff8-a2944643af8f","scheduledAt":"2026-05-31T13:30:24.982Z"}
+[2026-05-29 19:00:25] ERROR: WhatsApp send failed {"to":"919876543218","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:25] INFO: Trigger fired {"cp":"Arjun Kapoor","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:27] ERROR: WhatsApp send failed {"to":"91XXXXXXXXXX","templateName":"admin_daily_summary","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:27] INFO: Admin daily summary sent {"projectId":"67db528f-e916-47b7-b9e3-9dcb17764705","status":"failed"}
+[2026-05-29 19:00:27] INFO: Automation run complete {"projectId":"67db528f-e916-47b7-b9e3-9dcb17764705","cpsProcessed":15,"triggersTotal":15}
+[2026-05-29 19:00:27] INFO: Automation run started {"projectId":"b2000000-0000-0000-0000-000000000001","periodType":"monthly"}
+[2026-05-29 19:00:29] INFO: Classification complete {"projectId":"b2000000-0000-0000-0000-000000000001","total":0}
+[2026-05-29 19:00:30] ERROR: WhatsApp send failed {"to":"91XXXXXXXXXX","templateName":"admin_daily_summary","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:30] INFO: Admin daily summary sent {"projectId":"b2000000-0000-0000-0000-000000000001","status":"failed"}
+[2026-05-29 19:00:30] INFO: Automation run complete {"projectId":"b2000000-0000-0000-0000-000000000001","cpsProcessed":0,"triggersTotal":0}
+[2026-05-29 19:00:30] INFO: Automation run started {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","periodType":"monthly"}
+[2026-05-29 19:00:37] INFO: Classification complete {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","total":15}
+[2026-05-29 19:00:38] INFO: Meeting created {"cpId":"98c9c23f-e082-4e84-8400-773064d5658e","scheduledAt":"2026-05-31T13:30:37.893Z"}
+[2026-05-29 19:00:38] ERROR: WhatsApp send failed {"to":"919876543220","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:38] INFO: Trigger fired {"cp":"Rohan Kulkarni","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:39] INFO: Meeting created {"cpId":"db32f25e-6928-499a-8e60-892449a4053b","scheduledAt":"2026-05-31T13:30:38.978Z"}
+[2026-05-29 19:00:39] ERROR: WhatsApp send failed {"to":"919876543221","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:39] INFO: Trigger fired {"cp":"Neha Sharma","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:40] INFO: Meeting created {"cpId":"78f2958b-f8ef-4c00-8c6d-b31cc08dcd4f","scheduledAt":"2026-05-31T13:30:40.003Z"}
+[2026-05-29 19:00:40] ERROR: WhatsApp send failed {"to":"919876543224","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:40] INFO: Trigger fired {"cp":"Amit Chavan","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:41] INFO: Meeting created {"cpId":"5c32f6b1-b957-4d71-8105-b01c9c565106","scheduledAt":"2026-05-31T13:30:40.942Z"}
+[2026-05-29 19:00:41] ERROR: WhatsApp send failed {"to":"919876543210","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:41] INFO: Trigger fired {"cp":"Rahul Mehta","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:42] INFO: Meeting created {"cpId":"3a266899-1145-4ba6-bad8-23fa9fdd96b0","scheduledAt":"2026-05-31T13:30:41.862Z"}
+[2026-05-29 19:00:42] ERROR: WhatsApp send failed {"to":"919876543211","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:42] INFO: Trigger fired {"cp":"Sneha Patil","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:43] INFO: Meeting created {"cpId":"b4fe5229-20cc-466f-8c9e-cb838913471c","scheduledAt":"2026-05-31T13:30:42.875Z"}
+[2026-05-29 19:00:43] ERROR: WhatsApp send failed {"to":"919876543212","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:43] INFO: Trigger fired {"cp":"Vikram Singh","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:44] INFO: Meeting created {"cpId":"982e0387-1979-4bda-9825-e3c1a306a816","scheduledAt":"2026-05-31T13:30:43.961Z"}
+[2026-05-29 19:00:44] ERROR: WhatsApp send failed {"to":"919876543216","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:44] INFO: Trigger fired {"cp":"Manoj Verma","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:45] INFO: Meeting created {"cpId":"6deef61d-149a-4b0f-8ec2-bf3fdcebbc17","scheduledAt":"2026-05-31T13:30:45.033Z"}
+[2026-05-29 19:00:45] ERROR: WhatsApp send failed {"to":"919876543222","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:45] INFO: Trigger fired {"cp":"Sandeep Rao","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:46] INFO: Meeting created {"cpId":"d3c4c752-f802-4a20-81c1-5fa1137608e6","scheduledAt":"2026-05-31T13:30:46.052Z"}
+[2026-05-29 19:00:46] ERROR: WhatsApp send failed {"to":"919876543214","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:46] INFO: Trigger fired {"cp":"Deepak Joshi","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:47] INFO: Meeting created {"cpId":"a92f789c-a066-49c5-8fd9-a653201c8479","scheduledAt":"2026-05-31T13:30:46.976Z"}
+[2026-05-29 19:00:47] ERROR: WhatsApp send failed {"to":"919876543217","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:47] INFO: Trigger fired {"cp":"Nalini Gokhale","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:48] INFO: Meeting created {"cpId":"e47f7abd-5f62-4222-b0ee-619944b58a76","scheduledAt":"2026-05-31T13:30:47.886Z"}
+[2026-05-29 19:00:48] ERROR: WhatsApp send failed {"to":"919876543223","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:48] INFO: Trigger fired {"cp":"Pooja Jain","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:49] INFO: Meeting created {"cpId":"27adaca5-d4f0-4ea1-85eb-3f5ba8fc47fd","scheduledAt":"2026-05-31T13:30:48.855Z"}
+[2026-05-29 19:00:49] ERROR: WhatsApp send failed {"to":"919356458933","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:49] INFO: Trigger fired {"cp":"Aditya Gawande","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:49] DEBUG: Skipping already-sent trigger {"cp":"Prathmesh Lohar","trigger":"inactivity_meeting"}
+[2026-05-29 19:00:50] INFO: Meeting created {"cpId":"ad4ae1f9-7694-44ae-9ceb-064bdd579369","scheduledAt":"2026-05-31T13:30:50.138Z"}
+[2026-05-29 19:00:50] ERROR: WhatsApp send failed {"to":"919876543219","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:50] INFO: Trigger fired {"cp":"Priya Nair","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:51] INFO: Meeting created {"cpId":"86d69cd6-7b48-4c7f-9d82-0e1e65ae7ae6","scheduledAt":"2026-05-31T13:30:51.059Z"}
+[2026-05-29 19:00:51] ERROR: WhatsApp send failed {"to":"919876543218","templateName":"cp_inactivity_meeting","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:51] INFO: Trigger fired {"cp":"Arjun Kapoor","trigger":"inactivity_meeting","status":"failed"}
+[2026-05-29 19:00:53] ERROR: WhatsApp send failed {"to":"91XXXXXXXXXX","templateName":"admin_daily_summary","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:53] INFO: Admin daily summary sent {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","status":"failed"}
+[2026-05-29 19:00:53] INFO: Automation run complete {"projectId":"1e3a8027-0b27-4ef2-9f56-c31589027b4b","cpsProcessed":15,"triggersTotal":14}
+[2026-05-29 19:00:53] INFO: Automation run started {"projectId":"b2000000-0000-0000-0000-000000000002","periodType":"monthly"}
+[2026-05-29 19:00:55] INFO: Classification complete {"projectId":"b2000000-0000-0000-0000-000000000002","total":0}
+[2026-05-29 19:00:56] ERROR: WhatsApp send failed {"to":"91XXXXXXXXXX","templateName":"admin_daily_summary","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:00:56] INFO: Admin daily summary sent {"projectId":"b2000000-0000-0000-0000-000000000002","status":"failed"}
+[2026-05-29 19:00:57] INFO: Automation run complete {"projectId":"b2000000-0000-0000-0000-000000000002","cpsProcessed":0,"triggersTotal":0}
+[2026-05-29 19:00:57] INFO: Automation run started {"projectId":"b2000000-0000-0000-0000-000000000003","periodType":"monthly"}
+[2026-05-29 19:00:59] INFO: Classification complete {"projectId":"b2000000-0000-0000-0000-000000000003","total":0}
+[2026-05-29 19:01:00] ERROR: WhatsApp send failed {"to":"91XXXXXXXXXX","templateName":"admin_daily_summary","error":"Unknown WhatsApp provider: twilio"}
+[2026-05-29 19:01:00] INFO: Admin daily summary sent {"projectId":"b2000000-0000-0000-0000-000000000003","status":"failed"}
+[2026-05-29 19:01:01] INFO: Automation run complete {"projectId":"b2000000-0000-0000-0000-000000000003","cpsProcessed":0,"triggersTotal":0}
+[2026-05-29 19:01:01] INFO: JOB: Evening summary sent
+[2026-05-29 19:42:51] INFO: Scheduler stopped
+[2026-05-29 21:31:19] INFO: All cron jobs registered {"jobs":["Daily 9am classification","Daily 7pm summary","Hourly inactivity check","Monday weekly","1st monthly"]}
+[2026-05-29 21:31:19] INFO: Server running on port 3000 {"env":"development"}
+[2026-05-29 21:33:29] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SMd5c1836f87731cc5f41b696b04b1b8d2","template":"cp_performance_drop"}
+[2026-05-29 21:33:30] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"performance_drop"}
+[2026-05-29 21:40:35] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM3e5b9723cb0007dc732dc94bb6501f28","template":"cp_active_perk"}
+[2026-05-29 21:40:36] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"active_perk"}
+[2026-05-29 22:00:00] INFO: JOB: Hourly inactivity check

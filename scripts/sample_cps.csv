@@ -1,0 +1,10 @@
+name,email,whatsapp,firm_name,area,rera_number,site_visits,client_referrals,deals_closed,last_active_at,last_conversation_at,last_visit_at
+Rahul Mehta,rahul@example.com,9876543210,Mehta Properties,Andheri West,MH12345,42,8,3,2025-05-20,2025-05-18,2025-05-20
+Priya Sharma,priya@example.com,9876543211,Sharma Realty,Bandra,MH12346,33,5,2,2025-05-19,2025-05-15,2025-05-19
+Vikram Joshi,vikram@example.com,9876543212,Joshi Associates,Powai,MH12347,38,7,3,2025-05-21,2025-05-20,2025-05-21
+Ajay Kapoor,ajay@example.com,9876543213,Kapoor Homes,Thane,MH12348,18,3,1,2025-05-10,2025-05-08,2025-05-10
+Sunita Verma,sunita@example.com,9876543214,Verma Estates,Goregaon,MH12349,14,2,1,2025-05-12,2025-05-10,2025-05-12
+Anita Desai,anita@example.com,9876543215,Desai Properties,Malad,,7,1,0,2025-05-05,2025-05-01,2025-05-05
+Deepak Nair,deepak@example.com,9876543216,Nair Realty,Navi Mumbai,MH12351,4,0,0,2025-05-01,,2025-05-01
+Rohit Patel,rohit@example.com,9876543217,Patel Properties,Kurla,MH12352,1,0,0,2025-04-28,,2025-04-28
+Meera Pillai,meera@example.com,9876543218,Pillai Associates,Dadar,,0,0,0,,,
