@@ -659,4 +659,23 @@ router.get('/test-whatsapp', async (req, res) => {
 });
 
 
+router.get('/test-twilio', async (req, res) => {
+  try {
+    const response = await twilioClient.messages.create({
+      from: process.env.TWILIO_WHATSAPP_FROM,
+      to: 'whatsapp:+91YOURNUMBER',
+      body: 'Twilio test message'
+    });
+
+    res.json(response);
+  } catch (err) {
+    res.status(500).json({
+      message: err.message,
+      code: err.code,
+      moreInfo: err.moreInfo
+    });
+  }
+});
+
+
 module.exports = router;
