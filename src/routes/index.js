@@ -51,22 +51,28 @@ router.use('/cron', cronRoutes);
 //   res.json({ token, admin: { id: admin.id, name: admin.name, email: admin.email, role: admin.role } });
 // });
 
+// router.post('/auth/login', async (req, res) => {
+//   const { data: admin } = await supabase
+//     .from('admins')
+//     .select('*')
+//     .limit(1)
+//     .single();
+
+//   const token = jwt.sign(
+//     { id: admin.id, email: admin.email, role: admin.role },
+//     process.env.JWT_SECRET,
+//     { expiresIn: '7d' }
+//   );
+
+//   res.json({
+//     token,
+//     admin
+//   });
+// });
+
 router.post('/auth/login', async (req, res) => {
-  const { data: admin } = await supabase
-    .from('admins')
-    .select('*')
-    .limit(1)
-    .single();
-
-  const token = jwt.sign(
-    { id: admin.id, email: admin.email, role: admin.role },
-    process.env.JWT_SECRET,
-    { expiresIn: '7d' }
-  );
-
-  res.json({
-    token,
-    admin
+  return res.json({
+    message: "THIS IS THE NEW LOGIN CODE"
   });
 });
 
