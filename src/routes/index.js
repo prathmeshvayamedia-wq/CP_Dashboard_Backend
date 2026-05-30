@@ -101,16 +101,12 @@ router.post('/auth/login', async (req, res) => {
 
 // debug route
 
-router.get('/debug-admins', async (req, res) => {
-  const { data, error } = await supabase
+router.get('/debug-admin-count', async (req, res) => {
+  const { count, error } = await supabase
     .from('admins')
-    .select('*');
+    .select('*', { count: 'exact', head: true });
 
-  res.json({
-    count: data?.length || 0,
-    data,
-    error
-  });
+  res.json({ count, error });
 });
 
 // POST /api/auth/register (first-time setup only — disable after)
