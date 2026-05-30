@@ -32,8 +32,16 @@ app.use(helmet());
 // }));
 
 
+// app.use(cors({
+//   origin: process.env.FRONTEND_URL || "*",
+//   credentials: true
+// }));
+
 app.use(cors({
-  origin: process.env.FRONTEND_URL || "*",
+  origin: [
+    "http://localhost:3000",
+    "https://your-frontend.vercel.app"
+  ],
   credentials: true
 }));
 
