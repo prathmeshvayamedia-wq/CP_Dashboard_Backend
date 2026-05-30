@@ -37,12 +37,29 @@ app.use(helmet());
 //   credentials: true
 // }));
 
+// app.use(cors({
+//   origin: [
+//     "http://localhost:3000",
+//     "https://cp-dashboard-frontend.vercel.app",
+//     "https://cp-dashboard-frontend-c31wafewl-vaya.vercel.app"
+//   ],
+//   credentials: true
+// }));
+
+
 app.use(cors({
-  origin: [
-    "http://localhost:3000",
-    "https://cp-dashboard-frontend.vercel.app",
-    "https://cp-dashboard-frontend-c31wafewl-vaya.vercel.app"
-  ],
+  origin: (origin, callback) => {
+    if (!origin) return callback(null, true);
+
+    if (
+      origin.includes("vercel.app") ||
+      origin.includes("localhost")
+    ) {
+      return callback(null, true);
+    }
+
+    callback(new Error("Not allowed by CORS"));
+  },
   credentials: true
 }));
 
