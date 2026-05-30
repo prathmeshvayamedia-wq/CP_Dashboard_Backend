@@ -7,9 +7,10 @@
     { "src": "/(.*)", "dest": "src/index.js" }
   ],
   "crons": [
-    {
-      "path": "/api/cron/your-job-name",
-      "schedule": "0 * * * *"
-    }
+    { "path": "/api/cron/daily-morning",  "schedule": "30 3 * * *"  },
+    { "path": "/api/cron/daily-evening",  "schedule": "30 13 * * *" },
+    { "path": "/api/cron/hourly-inactivity", "schedule": "0 * * * *" },
+    { "path": "/api/cron/weekly",         "schedule": "30 2 * * 1"  },
+    { "path": "/api/cron/monthly",        "schedule": "30 0 1 * *"  }
   ]
 }
