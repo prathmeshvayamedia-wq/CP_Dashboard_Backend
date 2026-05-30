@@ -70,46 +70,30 @@ router.use('/cron', cronRoutes);
 //   });
 // });
 
-// POST /api/auth/login
 router.post('/auth/login', async (req, res) => {
   try {
-    // Get first admin from database
+    console.log("LOGIN HIT");
+
     const { data: admin, error } = await supabase
       .from('admins')
       .select('*')
       .limit(1)
       .single();
 
-    if (error || !admin) {
-      return res.status(500).json({
-        error: 'No admin found in database'
-      });
-    }
-
-    const token = jwt.sign(
-      {
-        id: admin.id,
-        email: admin.email,
-        role: admin.role
-      },
-      process.env.JWT_SECRET || 'temporary-secret',
-      { expiresIn: '7d' }
-    );
+    console.log("ADMIN:", admin);
+    console.log("ERROR:", error);
 
     return res.json({
-      token,
-      admin: {
-        id: admin.id,
-        name: admin.name,
-        email: admin.email,
-        role: admin.role
-      }
+      success: true,
+      admin
     });
 
   } catch (err) {
-    console.error('LOGIN ERROR:', err);
+    console.error("LOGIN CRASH:", err);
+
     return res.status(500).json({
-      error: err.message
+      error: err.message,
+      stack: err.stack
     });
   }
 });
