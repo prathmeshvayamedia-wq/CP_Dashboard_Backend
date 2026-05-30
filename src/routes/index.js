@@ -659,17 +659,29 @@ router.get('/test-whatsapp', async (req, res) => {
 });
 
 
+const twilio = require('twilio');
+
 router.get('/test-twilio', async (req, res) => {
   try {
-    const response = await twilioClient.messages.create({
+    const client = twilio(
+      process.env.TWILIO_ACCOUNT_SID,
+      process.env.TWILIO_AUTH_TOKEN
+    );
+
+    const msg = await client.messages.create({
       from: process.env.TWILIO_WHATSAPP_FROM,
-      to: 'whatsapp:+91YOURNUMBER',
-      body: 'Twilio test message'
+      to: 'whatsapp:+91YOUR_NUMBER',
+      body: 'Twilio Railway Test'
     });
 
-    res.json(response);
+    res.json({
+      success: true,
+      sid: msg.sid
+    });
+
   } catch (err) {
     res.status(500).json({
+      success: false,
       message: err.message,
       code: err.code,
       moreInfo: err.moreInfo
