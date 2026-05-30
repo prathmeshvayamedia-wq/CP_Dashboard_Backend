@@ -40,7 +40,7 @@ app.use(helmet());
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://your-frontend.vercel.app"
+    "cp-dashboard-frontend.vercel.app"
   ],
   credentials: true
 }));
