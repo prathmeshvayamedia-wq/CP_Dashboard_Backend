@@ -113,6 +113,15 @@ router.get('/debug-admins', async (req, res) => {
   });
 });
 
+// debug-env
+
+router.get('/debug-env', (req, res) => {
+  res.json({
+    supabaseUrl: process.env.SUPABASE_URL,
+    hasServiceKey: !!process.env.SUPABASE_SERVICE_KEY
+  });
+});
+
 // POST /api/auth/register (first-time setup only — disable after)
 router.post('/auth/register', async (req, res) => {
   const { name, email, password, whatsapp } = req.body;
