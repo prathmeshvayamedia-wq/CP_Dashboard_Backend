@@ -40,7 +40,8 @@ app.use(helmet());
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "cp-dashboard-frontend.vercel.app"
+    "cp-dashboard-frontend.vercel.app",
+    "https://cp-dashboard-frontend-c31wafewl-vaya.vercel.app"
   ],
   credentials: true
 }));
