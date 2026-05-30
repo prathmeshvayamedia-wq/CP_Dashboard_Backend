@@ -537,3 +537,7 @@
 [2026-05-29 21:40:35] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM3e5b9723cb0007dc732dc94bb6501f28","template":"cp_active_perk"}
 [2026-05-29 21:40:36] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"active_perk"}
 [2026-05-29 22:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-29 22:57:18] INFO: WhatsApp sent via Twilio {"to":"919763821790","sid":"SM68988c4d6c75bf642e1de0fc65964f05","template":"cp_active_perk"}
+[2026-05-29 22:57:18] INFO: Manual message sent {"cp":"Prathmesh Lohar","admin":"prathmesh.vayamedia@gmail.com","triggerType":"active_perk"}
+[2026-05-30 00:00:00] INFO: JOB: Hourly inactivity check
+[2026-05-30 01:00:00] INFO: JOB: Hourly inactivity check
