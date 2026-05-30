@@ -9,7 +9,7 @@ const routes      = require('./routes/index');
 // Start scheduler alongside the app
 // require('./jobs/scheduler');
 
-const app = express();
+// const app = express();
 
 // ── Security ────────────────────────────────────────────────
 const app = express();
