@@ -7,7 +7,7 @@ const logger      = require('./config/logger');
 const routes      = require('./routes/index');
 
 // Start scheduler alongside the app
-require('./jobs/scheduler');
+// require('./jobs/scheduler');
 
 const app = express();
 
