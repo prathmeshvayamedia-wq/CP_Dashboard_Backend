@@ -98,6 +98,21 @@ router.post('/auth/login', async (req, res) => {
   }
 });
 
+
+// debug route
+
+router.get('/debug-admins', async (req, res) => {
+  const { data, error } = await supabase
+    .from('admins')
+    .select('*');
+
+  res.json({
+    count: data?.length || 0,
+    data,
+    error
+  });
+});
+
 // POST /api/auth/register (first-time setup only — disable after)
 router.post('/auth/register', async (req, res) => {
   const { name, email, password, whatsapp } = req.body;
