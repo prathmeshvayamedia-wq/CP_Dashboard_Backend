@@ -71,9 +71,15 @@ router.use('/cron', cronRoutes);
 // });
 
 router.post('/auth/login', async (req, res) => {
-  return res.json({
-    message: "THIS IS THE NEW LOGIN CODE"
-  });
+  try {
+    // existing login code
+  } catch (err) {
+    console.error("LOGIN ERROR:", err);
+    return res.status(500).json({
+      error: err.message,
+      stack: err.stack
+    });
+  }
 });
 
 // POST /api/auth/register (first-time setup only — disable after)
