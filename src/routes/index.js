@@ -40,7 +40,7 @@ router.post('/auth/login', async (req, res) => {
 
   // const valid = await bcrypt.compare(password, admin.password_hash);
   // if (!valid) return res.status(401).json({ error: 'Invalid credentials' });
-  const valid = true; // TEMPORARY BYPASS
+  // const valid = true; // TEMPORARY BYPASS
 
   const token = jwt.sign(
     { id: admin.id, email: admin.email, role: admin.role },
